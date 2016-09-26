@@ -1,0 +1,121 @@
+.cat-manager {
+    width: 100%;
+    min-height: 400px;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.cat-manager h3 {
+    display: inline;
+}
+
+.cat-manager hr {
+    margin-top: 15px;
+}
+
+.thirtytwo, .text-right {
+    display: inline;
+}
+
+#red {
+    color: red;
+}
+
+#green {
+    color: green;
+}
+
+.cat-manager .text-right {
+    float: right;
+}
+
+.thirtytwo {
+    height: 32px;
+    padding: 4px;
+}
+
+a.navbar-brand {
+    color: white !important;
+}
+
+.modal {
+    margin-top: 50px;
+}
+
+.log {
+    cursor: pointer;
+}
+/*
+td tr {
+    margin-left: 20px;
+    border-left: 2px solid darkslategrey;
+}
+*/
+span {
+    cursor: pointer;
+}
+
+.cat_list ul, .cat_list li {
+    position: relative;
+}
+
+.cat_list ul {
+    list-style: none;
+    padding-left: 32px;
+}
+
+.cat_list li::before, .cat_list li::after {
+    content: "";
+    position: absolute;
+    left: -12px;
+}
+
+.cat_list li::before {
+    border-top: 1px solid #000;
+    top: 9px;
+    width: 8px;
+    height: 0;
+}
+
+.cat_list li::after {
+    border-left: 1px solid #000;
+    height: 100%;
+    width: 0px;
+    top: 2px;
+}
+
+.cat_list ul > .cat_list li:last-child::after {
+    height: 8px;
+}
+
+.padding {
+    padding-left: 15px;
+    margin-left: 15px;
+}
+
+.nothing ul, .nothing li {
+    border: 0px;
+}
+
+.pink {
+    background: pink;
+}
+
+td strong {
+    cursor: pointer;
+    color: red;
+}
+
+.navbar {
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+}
+
+.plus, .minus, .square {
+    cursor: pointer;
+}
+
+
